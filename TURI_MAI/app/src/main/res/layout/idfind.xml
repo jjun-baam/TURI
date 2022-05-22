@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IdActivity">
+
+
+    <ImageView
+        android:id="@+id/img_logo"
+        android:layout_width="286dp"
+        android:layout_height="181dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.138"
+        app:srcCompat="@drawable/logotext" />
+
+    <EditText
+        android:id="@+id/ed_myemail1"
+        android:layout_width="231dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="40dp"
+        android:background="@drawable/border"
+        android:drawableLeft="@drawable/ic_email"
+        android:drawablePadding="8dp"
+        android:ems="10"
+        android:fontFamily="@font/notosanskr_bold"
+        android:hint="이메일"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="15dp"
+        android:singleLine="false"
+        android:textColor="@color/black_30"
+        android:textSize="14dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.475"
+        tools:ignore="DuplicateIds,MissingConstraints,SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/ed_emailcode1"
+        android:layout_width="231dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="40dp"
+        android:background="@drawable/border"
+        android:drawableLeft="@drawable/ic_email"
+        android:drawablePadding="8dp"
+        android:fontFamily="@font/notosanskr_bold"
+        android:hint="이메일 인증코드"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="15dp"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.565"
+        tools:ignore="DuplicateIds,MissingConstraints,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/b_Confirm1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/ch"
+        android:fontFamily="@font/notosanskr_bold"
+        android:text="확인"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.869"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.566" />
+
+    <Button
+        android:id="@+id/b_certification1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/ch"
+        android:fontFamily="@font/notosanskr_bold"
+        android:text="인증하기"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.869"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.475" />
+
+    <Button
+        android:id="@+id/b_idfind"
+        android:layout_width="328dp"
+        android:layout_height="60dp"
+        android:autoText="false"
+        android:backgroundTint="@color/ch"
+
+        android:elegantTextHeight="true"
+        android:fontFamily="@font/notosanskr_bold"
+        android:text="아이디 찾기"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.676" />
+
+    <TextView
+        android:id="@+id/tv_join2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="252dp"
+        android:drawableStart="@drawable/ic_member"
+        android:fontFamily="@font/notosanskr_bold"
+        android:text="  회원가입   "
+        android:textColor="@color/black_30"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.442"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6"
+        tools:ignore="DuplicateIds" />
+
+    <TextView
+        android:id="@+id/tv_pwfind2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="252dp"
+        android:drawableStart="@drawable/ic_lock"
+        android:fontFamily="@font/notosanskr_bold"
+        android:text="  비밀번호 찾기"
+        android:textColor="@color/black_30"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.77"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6"
+        tools:ignore="DuplicateIds" />
+
+    <TextView
+        android:id="@+id/tv_login1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="252dp"
+        android:drawableStart="@drawable/ic_outline_login_24"
+        android:fontFamily="@font/notosanskr_bold"
+        android:text="  로그인   "
+        android:textColor="@color/black_30"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.197"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6" />
+
+    <ImageButton
+        android:id="@+id/imgb_loginpage2"
+        android:layout_width="30dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="22dp"
+        android:adjustViewBounds="true"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.041"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/arrowleft" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

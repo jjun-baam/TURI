@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "258007113266",
+    "project_id": "turimain-d8de8",
+    "storage_bucket": "turimain-d8de8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:258007113266:android:a4357b275df41ec4b5262b",
+        "android_client_info": {
+          "package_name": "com.example.turi_main"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "258007113266-jq02mjafatcqi7uubuaejruat4mm4a5l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBT1ETQhWZyS-xFi4EULCtBtFOo6RU-qj4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "258007113266-jq02mjafatcqi7uubuaejruat4mm4a5l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.turi_main">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_turi_new"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_turi_new_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TURI_MAIN">
+
+        <activity
+            android:name=".WritePostActivity"
+            android:exported="true" />
+        <activity android:name=".SubActivity" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CameraActivity"
+            android:exported="true" />
+        <activity android:name=".PwfindActivity" />
+        <activity android:name=".IdActivity" />
+        <activity android:name=".JoinusActivity" />
+        <activity android:name=".GooglemapActivity" />
+        <activity
+            android:name=".LoadingActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MypageActivity" />
+        <activity android:name=".MyPostPageActivity" />
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".PostActivity"/>
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false"/>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCu6n7ykiM7lnZpW25bOpqpD1rrnYvT2Zk"/>
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
